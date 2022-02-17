@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/calibri.ttf');
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;    
+}
+.container {    
+    display: flex;
+    width: 990px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.menu {
+    color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;    
+    font-size: 16px;
+    font-family: 'Calibri';  
+}
+
+.menu a:visited{
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul, nav li {    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 0;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Calibri';
+}
+
+nav a:hover{
+    border-bottom: 2px solid #f08910;  
+    font-weight: bold;
+}
+nav .active a{
+    border-bottom: 2px solid #f08910;  
+    font-weight: bold;
+}
+
+.icone_user {
+    margin: 10px;
+    display: flex;
+    align-items: center;     
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login p {
+    margin-bottom: 2px;
+}
+
+.login a {
+    font-size: 14px;
+    display: block;
+    margin-left: 30px;
+    color: #f08910;
+}
+.login a:visited {
+    color: #f08910;
+}
+
+.faixa {
+    background-color: #f08910;
+    width: 100%;
+    height: 120px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_central {
+    margin-top: -65px;
+    width: 990px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner_central p {
+    position: absolute;
+    margin-top: -380px;
+    font-family: 'Calibri';  
+    font-size: 17px;
+}
+
+.banner1 {
+    background: linear-gradient(#FFFFFF, #F1F1F1);   
+    width: 262px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.banner2 {
+    background: linear-gradient(#FFFFFF, #F1F1F1);  
+    width: 262px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.banner3 {
+    background: linear-gradient(#FFFFFF, #F1F1F1);  
+    width: 262px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-right: 45px;
+    margin-top: -20px;
+}
+
+section #event, #user, #rel {
+    display: flex;
+    font-family: 'Calibri'; 
+    position: absolute;
+    margin-top: 190px;
+    font-size: 18px;
+}
+
+footer {    
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Calibri';
+    font-size: 12px;
+}
+
+.word {
+    color: #f08910;
+    font-family: 'Calibri';
+    font-size: 12px;
+}
+
