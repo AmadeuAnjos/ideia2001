@@ -147,12 +147,7 @@ nav .active a{
     align-items: center;
     margin-left: 45px;
     margin-top: -20px;
-}
-
-.show-modal {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1.0);
+    cursor: pointer;
 }
 
 .banner2 {
@@ -163,7 +158,8 @@ nav .active a{
     justify-content: center;
     border-radius: 20px;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -20px;    
+    cursor: pointer;
 }
 
 .banner3 {
@@ -176,6 +172,7 @@ nav .active a{
     align-items: center;
     margin-right: 45px;
     margin-top: -20px;
+    cursor: pointer;
 }
 
 section #event, #user, #rel {
@@ -184,6 +181,49 @@ section #event, #user, #rel {
     position: absolute;
     margin-top: 190px;
     font-size: 18px;
+}
+
+.modal, .modal2, .modal3 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+    border: 1px solid #f08910;
+}
+
+#modal_events, #modal_user, #modal_rel {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Calibri';
+    color: #000000;
+    font-size: 28px;
+}
+
+@keyframes animate {
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+.fechar, .fechar2 {
+    width: 20px;
+    height: 20px;
+    background-color: #868686;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
 }
 
 footer {    

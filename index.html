@@ -48,17 +48,29 @@
         <div class="container row">
             <div class="banner_central">
                 <p>Olá <b>Igor Gonçalves</b>, selecione uma das opções abaixo:</p>
-                <div class="banner1">
+                <div onclick="evento()" class="banner1">
                     <img src="/images/icone-eventos.png">
                     <h2 id="event">Meus Eventos</h2>
                 </div>
-                <div class="banner2">
+                <div onclick="evento2()" class="banner2">
                     <img src="/images/icone-usuarios.png">
                     <h2 id="user">Usuários</h2>
                 </div>
-                <div class="banner3">
+                <div onclick="evento3()" class="banner3">
                     <img src="/images/icone-relatorios.png">
                     <h2 id="rel">Relatórios</h2>
+                </div>
+                <div class="modal">
+                    <div onclick="fechar()" class="fechar">x</div>
+                    <h2 id="modal_events">Meus Eventos</h2>
+                </div>
+                <div class="modal2">
+                    <div onclick="fechar2()" class="fechar">x</div>
+                    <h2 id="modal_user">Usuários</h2>
+                </div>
+                <div class="modal3">
+                    <div onclick="fechar3()" class="fechar">x</div>
+                    <h2 id="modal_rel">Relatórios</h2>
                 </div>
             </div>
         </div>
