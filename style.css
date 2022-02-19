@@ -40,6 +40,10 @@ header {
     font-family: 'Calibri';  
 }
 
+.menu a {
+    color: #000000;
+}
+
 .menu a:visited{
     color: black;
 }
